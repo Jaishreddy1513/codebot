@@ -1,3 +1,0 @@
-git rm --cached .env
-git commit -m "Stop tracking .env rope_local db"
-git push
