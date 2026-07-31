@@ -1,3 +1,15 @@
-git rm --cached .env
-git commit -m "Stop tracking .env rope_local db"
-git push
+# Environment
+.env
+.env.*
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual Environment
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
