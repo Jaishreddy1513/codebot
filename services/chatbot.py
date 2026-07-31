@@ -1,6 +1,12 @@
 from groq import Groq
+import os
+from dotenv import load_dotenv
 
-client1 = Groq(api_key="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")
+load_dotenv()
+
+api_key = os.getenv("API_KEY")
+
+client1 = Groq(api_key=api_key)
 
 def llm(context,question):
     data_query = f"""
