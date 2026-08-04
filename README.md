@@ -59,13 +59,13 @@ genai/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/<your-username>/<repo-name>.git
+git clone https://github.com/Jaishreddy1513/codebot.git
 ```
 
 ### 2. Navigate to the project
 
 ```bash
-cd <repo-name>
+cd <codebot>
 ```
 
 ### 3. Create a virtual environment
